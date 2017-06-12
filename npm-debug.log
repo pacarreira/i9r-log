@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\I9RPAC001\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'git+ssh://git@code.inovretail.com:jinovretail/saas/api' ]
+2 info using npm@4.1.1
+3 info using node@v8.1.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git+ssh://git@code.inovretail.com:jinovretail/saas/api
+8 silly fetchOtherPackageData git+ssh://git@code.inovretail.com:jinovretail/saas/api
+9 silly cache add args [ 'git+ssh://git@code.inovretail.com:jinovretail/saas/api',
+9 silly cache add   null ]
+10 verbose cache add spec git+ssh://git@code.inovretail.com:jinovretail/saas/api
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git+ssh://git@code.inovretail.com:jinovretail/saas/api',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git+ssh://git@code.inovretail.com:jinovretail/saas/api',
+11 silly cache add   spec: 'ssh://git@code.inovretail.com:jinovretail/saas/api',
+11 silly cache add   type: 'git' }
+12 verbose addRemoteGit caching git+ssh://git@code.inovretail.com:jinovretail/saas/api
+13 silly tryClone cloning git+ssh://git@code.inovretail.com:jinovretail/saas/api via git+ssh://git@code.inovretail.com:jinovretail/saas/api
+14 verbose tryClone git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1 not in flight; caching
+15 verbose correctMkdir C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+16 info git [ 'clone',
+16 info git   '--template=C:\\Users\\I9RPAC001\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+16 info git   '--mirror',
+16 info git   'git@code.inovretail.com:jinovretail/saas/api',
+16 info git   'C:\\Users\\I9RPAC001\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1' ]
+17 error git clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1: Cloning into bare repository 'C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1'...
+17 error git clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1: Host key verification failed.
+17 error git clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1: fatal: Could not read from remote repository.
+17 error git clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1:
+17 error git clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1: Please make sure you have the correct access rights
+17 error git clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1: and the repository exists.
+18 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1
+18 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1'...
+18 silly fetchPackageMetaData Host key verification failed.
+18 silly fetchPackageMetaData fatal: Could not read from remote repository.
+18 silly fetchPackageMetaData
+18 silly fetchPackageMetaData Please make sure you have the correct access rights
+18 silly fetchPackageMetaData and the repository exists.
+18 silly fetchPackageMetaData
+18 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:252:12)
+18 silly fetchPackageMetaData     at emitTwo (events.js:125:13)
+18 silly fetchPackageMetaData     at ChildProcess.emit (events.js:213:7)
+18 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:887:16)
+18 silly fetchPackageMetaData     at Socket.stream.socket.on (internal/child_process.js:340:11)
+18 silly fetchPackageMetaData     at emitOne (events.js:115:13)
+18 silly fetchPackageMetaData     at Socket.emit (events.js:210:7)
+18 silly fetchPackageMetaData     at Pipe._handle.close [as _onclose] (net.js:548:12)
+18 silly fetchPackageMetaData  error for git+ssh://git@code.inovretail.com:jinovretail/saas/api { Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1
+18 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1'...
+18 silly fetchPackageMetaData Host key verification failed.
+18 silly fetchPackageMetaData fatal: Could not read from remote repository.
+18 silly fetchPackageMetaData
+18 silly fetchPackageMetaData Please make sure you have the correct access rights
+18 silly fetchPackageMetaData and the repository exists.
+18 silly fetchPackageMetaData
+18 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:252:12)
+18 silly fetchPackageMetaData     at emitTwo (events.js:125:13)
+18 silly fetchPackageMetaData     at ChildProcess.emit (events.js:213:7)
+18 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:887:16)
+18 silly fetchPackageMetaData     at Socket.stream.socket.on (internal/child_process.js:340:11)
+18 silly fetchPackageMetaData     at emitOne (events.js:115:13)
+18 silly fetchPackageMetaData     at Socket.emit (events.js:210:7)
+18 silly fetchPackageMetaData     at Pipe._handle.close [as _onclose] (net.js:548:12)
+18 silly fetchPackageMetaData   killed: false,
+18 silly fetchPackageMetaData   code: 128,
+18 silly fetchPackageMetaData   signal: null,
+18 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\I9RPAC001\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\\Users\\I9RPAC001\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1' }
+19 silly rollbackFailedOptional Starting
+20 silly rollbackFailedOptional Finishing
+21 silly runTopLevelLifecycles Finishing
+22 silly install printInstalled
+23 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1
+23 verbose stack Cloning into bare repository 'C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1'...
+23 verbose stack Host key verification failed.
+23 verbose stack fatal: Could not read from remote repository.
+23 verbose stack
+23 verbose stack Please make sure you have the correct access rights
+23 verbose stack and the repository exists.
+23 verbose stack
+23 verbose stack     at ChildProcess.exithandler (child_process.js:252:12)
+23 verbose stack     at emitTwo (events.js:125:13)
+23 verbose stack     at ChildProcess.emit (events.js:213:7)
+23 verbose stack     at maybeClose (internal/child_process.js:887:16)
+23 verbose stack     at Socket.stream.socket.on (internal/child_process.js:340:11)
+23 verbose stack     at emitOne (events.js:115:13)
+23 verbose stack     at Socket.emit (events.js:210:7)
+23 verbose stack     at Pipe._handle.close [as _onclose] (net.js:548:12)
+24 verbose cwd D:\i9rGIT\saas\npm\i9r-log
+25 error Windows_NT 10.0.14393
+26 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\I9RPAC001\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "git+ssh://git@code.inovretail.com:jinovretail/saas/api"
+27 error node v8.1.0
+28 error npm  v4.1.1
+29 error code 128
+30 error Command failed: git -c core.longpaths=true clone --template=C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@code.inovretail.com:jinovretail/saas/api C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1
+30 error Cloning into bare repository 'C:\Users\I9RPAC001\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-code-inovretail-com-jinovretail-saas-api-612504f1'...
+30 error Host key verification failed.
+30 error fatal: Could not read from remote repository.
+30 error
+30 error Please make sure you have the correct access rights
+30 error and the repository exists.
+31 error If you need help, you may report this error at:
+31 error     <https://github.com/npm/npm/issues>
+32 verbose exit [ 1, true ]
